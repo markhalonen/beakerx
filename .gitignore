@@ -39,3 +39,26 @@ js/bower_components/
 lib/
 beakerx/record.txt
 VERSION
+
+# Ignore tags created by etags, ctags, gtags, or cscope
+TAGS
+.TAGS
+.TAGS/
+tags
+.tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+GSYMS
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+
+# Ignore swap files created by Vim
+[._]*.s[a-v][a-v]
+[._]*.sw[a-p]
+[._]*s[a-v][a-z]
+[._]sw[a-p]
