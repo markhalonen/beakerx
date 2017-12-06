@@ -35,12 +35,10 @@ jupyter-groovy-kernel.log
 /.classpath
 
 # Python
-*.pyc
+*.py[cod]
 __pycache__/
-beakerx/__pycache__/
-beakerx/plot/__pycache__/
 beakerx/dist
-beaker.egg-info/
+*.egg-info/
 
 # Node
 js/bower_components/
